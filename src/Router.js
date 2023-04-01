@@ -1,6 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
 import App from './App';
-import Main from './App';
 import Notfound from './pages/Notfound';
 import VideoDetail from './pages/VideoDetail';
 import Videos from './pages/Videos';
@@ -8,7 +7,7 @@ import Videos from './pages/Videos';
 export const router = createBrowserRouter([
   {
     path: '/',
-    element: <Main />,
+    element: <App />,
     errorElement: <Notfound />,
     children: [
       { index: true, element: <Videos /> },
