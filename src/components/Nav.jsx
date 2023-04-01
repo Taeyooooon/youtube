@@ -24,7 +24,7 @@ export default function Nav() {
       <header className=' w-full flex p-4 mb-4 text-2xl border-b border-zinc-600'>
         <Link to='/' className=' flex items-center'>
           <BsYoutube className='text-4xl text-brand' />
-          <h1 className=' font-bold ml-2 text-3xl'>YOUTUBE</h1>
+          <h1 className=' font-bold ml-2 text-3xl'>TYTUBE</h1>
         </Link>
         <form onSubmit={onSubmit} className='w-full flex justify-center'>
           <input
